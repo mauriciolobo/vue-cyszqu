@@ -1,0 +1,38 @@
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 07a4e51..d93b974 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -7,16 +7,15 @@[m
+     "build": "vue-cli-service build",[m
+     "lint": "vue-cli-service lint"[m
+   },[m
+[31m-  "dependencies": {[m
+[31m-    "vue": "^3.0.0"[m
+[31m-  },[m
+[32m+[m[32m  "dependencies": {},[m
+   "devDependencies": {[m
+     "@vue/cli-plugin-babel": "^4.4.0",[m
+     "@vue/cli-plugin-eslint": "^4.4.0",[m
+     "@vue/cli-service": "^4.4.0",[m
+[32m+[m[32m    "@vue/compiler-sfc": "^3.0.2",[m
+     "babel-eslint": "^10.1.0",[m
+     "eslint": "^6.7.2",[m
+[31m-    "eslint-plugin-vue": "^6.2.2",[m
+[31m-    "vue-template-compiler": "^2.6.11"[m
+[32m+[m[32m    "eslint-plugin-vue": "^7.1.0",[m
+[32m+[m[32m    "vue": "^3.0.2"[m
+   }[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/App.vue b/src/App.vue[m
+[1mindex dd91132..25e4286 100644[m
+[1m--- a/src/App.vue[m
+[1m+++ b/src/App.vue[m
+[36m@@ -1,5 +1,6 @@[m
+ <template>[m
+   <div id="app">[m
+[32m+[m[32m    <h1>It worked!</h1>[m
+     <img alt="Vue logo" src="https://vuejs.org/images/logo.png">[m
+     <HelloWorld msg="Welcome to Your Vue.js App"/>[m
+   </div>[m
